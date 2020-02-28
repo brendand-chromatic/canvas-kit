@@ -45,7 +45,7 @@ const BannerWrapper = styled('button')<BannerProps>(
     fontSize: 14,
     fontWeight: 500,
     padding: `${spacing.xxs} ${spacing.s}`,
-    textAlign: 'right',
+    textAlign: 'left',
     border: 0,
     display: 'flex',
     alignItems: 'center',
