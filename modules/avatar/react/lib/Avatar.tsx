@@ -39,7 +39,7 @@ export const avatarStyles: CSSObject = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  padding: 0,
+  padding: 20,
   border: 0,
   borderRadius: borderRadius.circle,
   boxSizing: 'border-box',
