@@ -60,11 +60,11 @@ export interface CheckboxProps extends Themeable, React.InputHTMLAttributes<HTML
   indeterminate?: boolean;
 }
 
-const checkboxHeight = 18;
+const checkboxHeight = 30;
 const checkboxTapArea = spacing.m;
 const checkboxContainerHeight = checkboxTapArea;
 const checkboxLabelDistance = spacing.xs;
-const checkboxWidth = 18;
+const checkboxWidth = 30;
 const rippleRadius = (spacing.l - checkboxWidth) / 2;
 
 const CheckboxContainer = styled('div')({

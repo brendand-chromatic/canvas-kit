@@ -47,7 +47,7 @@ export interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
 const Box = styled('div')<CardProps>(
   {
     backgroundColor: colors.frenchVanilla100,
-    border: `1px solid ${colors.soap500}`,
+    border: `5px solid ${colors.soap500}`,
     borderRadius: borderRadius.l,
     boxSizing: 'border-box',
   },
@@ -57,7 +57,7 @@ const Box = styled('div')<CardProps>(
   ({height}) => height && {height}
 );
 
-const Header = styled('h3')(type.h3, {
+const Header = styled('h2')(type.h2, {
   marginBottom: spacing.m,
   marginTop: 0,
 });
